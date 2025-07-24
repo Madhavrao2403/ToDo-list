@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>To - Do List</h1>
+        </header>
+
+        <main>
+            <section class="action">
+                <input type="datetime-local" id="calender">
+                <input type="text" id="task" placeholder="Add a new task">
+                <button type="submit" onclick="add()">Add</button>
+            </section>
+
+            <section class="navigate">
+                <a href="#" id="All-btn" onclick="navigate(event,'All')" class="active-tab">All</a>
+                <a href="#" id="Completed-btn" onclick="navigate(event,'completed')">Completed</a>
+                <a href="#" id="Pending-btn" onclick="navigate(event,'pending')">Pending</a>
+            </section>
+
+            <section>
+                <div class="list" id="All"></div>
+                <div class="list Completed" style="display: none;"></div>
+                <div class="list pending" style="display: none;"></div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

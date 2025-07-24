@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #0e1014;
+}
+
+.container {
+    text-align: center;
+    width: 50vw;
+    margin: auto;
+}
+
+header {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.action {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#task {
+    width: 30vw;
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 1px solid #404248;
+    border-radius: 10px;
+    color: white;
+}
+
+#task::placeholder {
+    font-size: 18px;
+    color: #797d89;
+}
+
+button[type="submit"] {
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid #404248;
+    color: #c1cddb;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#calender {
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.navigate {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #797d89;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.active-tab {
+    border-bottom: 2px solid #3a4b85;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.list {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 20px;
+}
+
+.task-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    border: 1px solid #404248;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.time-style {
+    color: #797d89;
+}
+
+.cancel {
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
