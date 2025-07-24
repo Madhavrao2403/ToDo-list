@@ -4,7 +4,7 @@ A sleek and responsive **To-Do List** built using **HTML**, **CSS**, and **Vanil
 
 ## 📸 Preview
 
-![To-Do List App Screenshot](./previewpng.png)
+![To-Do List App Screenshot](./preview.png.png)
 
 > *Replace `preview.png` with your actual screenshot file.*
 
